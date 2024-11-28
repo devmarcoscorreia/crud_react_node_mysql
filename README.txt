@@ -13,3 +13,5 @@ CREATE TABLE users (
     mane VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL
 );
+
+
