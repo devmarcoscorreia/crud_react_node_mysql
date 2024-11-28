@@ -1,0 +1,29 @@
+Banco e tabela criados no mysql - conexão root
+**********************************************
+
+CREATE DATABASE IF NOT EXISTS meubanco;
+
+use meubanco;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    mane VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL
+);
+
+Tecnologias usados no sistema
+******************************
+- Frontend feito React JS
+- Backend feito com node JS
+- Mysql versão 8.0 CE
+- Nome do banco de dados: meubanco
+- Tabela usada no sistema: users
+
+
+
+GITHUB MARCOS CORREIA DA COSTA
+E-MAIL: mcosta-7@hotmail.com
+pass: @mccorreia5279
+User name: devmarcoscorreia
+
+
